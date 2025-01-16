@@ -1,0 +1,225 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(240, 223, 201, 0.539);
+    /* font-family: "Cabin", serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-page{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+}
+.main-page nav{
+    display: flex;
+    justify-content: space-around;
+    /* position: relative;
+    bottom: 0px; */
+    background-color: burlywood;
+}
+nav .nav-items{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 700;
+    color: #502314;
+    text-align: center;
+    /* border: solid; */
+    width: 20%;
+}
+.nav-items img{
+    height: 20px;
+    width: 20px;
+    /* text-align: center; */
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    align-items: center;
+    /* height: 50px; */
+    margin: 10px 0;
+    font-weight: bold;
+}
+header .nav-text{
+    font-size: 15px;
+    color: #502314;
+}
+header .profile-cart button{
+    background-color: rgb(214, 35, 0);
+    padding: 10px 12px;
+    border: none;
+    border-radius: 60px;
+    color: white;
+}
+hr{
+    margin-top: 5px;
+    border: 1px solid #50231451;
+}
+
+.main-page .main-content{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main-page .main-content .banner-text{
+    /* font: 32px Flame-Regular; */
+    color: #502314;
+    width: 300px;
+    font-weight: 700;
+}
+.banner-text .btn{
+   
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.btn-red{
+    background-color: rgb(214, 35, 0);
+    padding: 14px 82px;
+}
+.fa-solid{
+    padding-right: 10px;
+}
+.banner-text #btn{
+    background-color: transparent ;
+    color: #502314;
+    border: 1px solid #502314;
+    padding: 14px 72px;
+}
+
+.main-content .banner-logo{
+    width: 600px;
+    margin-left: 30px;
+}
+.banner-logo img[alt="banner-logo"]{
+    width: 100%;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 456px;
+    border: .5px solid rgba(0, 0, 0, 0.247);
+    border-radius: 20px ;
+    background-color: white;
+    margin: 0px 0 10px 20px;
+}
+
+.card img[alt='card-logo']{
+    width: 100%;
+    height: 188px;
+    border-radius: 10px 10px 0 0;
+}
+.card h2{
+    margin: 0 0 8px;
+    color: #502314;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card p{
+    color: #502314;
+    font-size: 12px;
+    font-weight: bold;
+}
+.card a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #502314;
+    margin: 8px 0px;
+}
+.card-details{
+    padding: 20px;
+}
+.card-details button{
+    padding: 8px 16px;
+    margin: 30px 0 0 290px;
+    border: 1px solid #502314;
+    border-radius: 9999px;
+    color: #502314;
+    font-weight: bold;
+    background-color: transparent;
+}
+.app-ads{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(203, 203, 203, 0.352);
+    box-shadow: 0px 0px 1px 0px gray;
+}
+.app-ad{
+    display: flex;
+    justify-content: center;
+    
+}
+.ads-img {
+    height: 300px;
+    width: 250px;
+}
+.ads-img img[alt='phone-scanner']{
+    height: 100%;
+}
+.app-ads .ads-text{
+    margin-top: 50px;
+    width: 400px;
+    /* font: 22px Flame-Regular; */
+    font-size: 22px;
+    color: #502314;
+    margin-left: 100px;
+}
+img[alt~="logo"]{
+    height: 30px;
+}
+.ads-text .btns{
+    display: flex;
+    width: 48%;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+}
+ 
+.download-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ad-text{
+    color: #502314;
+    font-size: 13px;
+    margin-left: 500px;
+    width: 500px;
+    text-align: justify;
+    font-weight: bold;
+}
+footer{
+    margin-top: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: rgb(80, 35, 20);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+footer p a{
+    color: white;
+}
+

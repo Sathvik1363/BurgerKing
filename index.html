@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger King</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/5977/5977578.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"
+    />
+  </head>
+  <body>
+    <div class="main-page">
+      <nav>
+        <div class="nav-items">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAACXBIWXMAAB7CAAAewgFu0HU+AAAB5ElEQVR4nO2ZO0sDQRCAt7AQRNHMmFh53kx8NNpZWykWiTsRbBS0E/0VamdrIaKdir/A0v+gIEgstbfSIJEUyirBB0o2udztBXdgqmPnPma/3b2HUv89FkezJCEWTBbHcqFKaywGMKEZzoXx9WtqhnNzTaUpFjizKgSVn7DyCf0sjOuuOdVaEHRrhr2/QOVnEp7MTuV6nMCaaRaGa2tYrncby5qyk6lSoDE0JKNI0wqwQ0VaVUBcKBJVAUlKkbYrwDEqEpcCEocicSsg7VIkcQU4giKuFJBWFJF8Zk4TPLmGk7+gCZ5KYWb2o7Mj/YEQPrqGkoZ6QMU8uirNeOAchm2hcV8J471zELZUg/FOCWGtgzpcU6kAYfv0wOI7jF6JV7/o2O8S6PdhSfTgIKhqwlNh3P0ttblGUE3HSUdQLYUw3ehtphTCdDugIwOb7tm+KwrjmXtghh1bYM2wkwbg7SaAtz2w+A5/hldC/KL7Hl4J8UrEoIQmfOmYk46gar6tlTsHGG8iF0kYeEvN5zN9wngbYZo2bIGFYLP1xmB5YRx63wsVaGBYCK6aLkL4UAyzOVvgpWBwyIxpoSmXhvFbsZkZ1VUKYcX8VxDGC4s8LPJg3ha2HmaMJjiyugfhsSZYNmz1Am+atZQReCld9wAAAABJRU5ErkJggg==" alt="home">
+          <p>Home</p>
+          
+        </div>
+        <div class="nav-items">
+          <img src="https://www.bk.com/static/media/4f5f9366a38571baec86febd55f0769bc348f9d7-22x22.928445c72424e3a06f12.png" alt="menu">
+          <p>Menu</p>
+        </div>
+        <div class="nav-items">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAABuvAAAbrwFeGpEcAAACjklEQVR4nNXaO28UMRAAYPMQP+BmktTrSRpKJNoEJCSq3EyE0sE/oAhCIrxEEBI1He+XQoEA0SKQaOBvUFDRUUBxDUKAvJeE6Hbt9d7aXp+lrc573m/HM+vzrVI7jQlECD4LwUgI/wY5NP5kgndMcEKlaKLhdrCLrz/+MOHVqAguIxEVsT9CW9EgUk6nRJAx5kYsyCgpJBZGagYK9NUHmPBeMozEg6TFiAdktZhfkEU4yxo3hku43Ob7t5Q6KATPHJjrSSBMc6dZ4/f9nzPh2/Wj6kgbDBM+d+TNtaiQ1WJ+YRLx/4BbbcZpwnR+zogDwgTn7FMCvrQdqzEyusM0c0GGi3jBcQd/TDPeulKHROO2fZoNroSHLOGyY15/nGpAH4yGy0EhppnErkRD4681wmPTQnYxrPGFNeIaNoNCTHUyiW1ywkwnE4muiBaYS8EgsVvTNGPfatY3JBhGMoAEwUgmEJ+cEVdpzgnSCZMbZGpMjhAvzORDs66TWROpDNrKijrMGl7ZMGYJtdfZbNlUKwQ8mRWM0OB82ZE1fqgvd7OBYcLfawUcV8NicMrsO1nm4ePMMK8tN/1l2cn8QnMk1aOcMKLhTfU64eteJya4OQsYJrhYvT78NtnJimEND82uSG8CVebzhuVGv692dkWG8EFfGLYhxjki9SdlhmEnAu82nAybjpxJVs3YgRCCp17X0YCJXgA4BKJvDIdE9IXhGAgfjCnNoTAcE+GL6VrNOAUiNiYpIhamF4RXAWjx0OwVEQqTBaIrJiuEJ+b+JCZLRFtM1gi/VTPcaViKZ7NH4BOZvCPRDZMpoh0mc8RuM38F2LaazBsRM4FQO21IcNK8fDbe0YSRaPjExdyZ0AP9AyLFp7XcRqWkAAAAAElFTkSuQmCC" alt="offers">
+          <p>Offers</p>
+        </div>
+        <div class="nav-items">
+          <img src="https://www.bk.com/static/media/daf5c681f2f8aafb1000074e9fa60c327055d59d-22x15.8999aa31fe345e72cf99.png" alt="rewards">
+          <p>Rewards</p>
+        </div>
+      </nav>
+      <header>
+        <div class="menu-icon">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+        <div class="nav-text"><h1>Burger king</h1></div>
+        <div class="profile-cart">
+          <i class="fa-solid fa-user"></i>
+          <button><i class="fa-solid fa-bag-shopping"></i> View Cart</button>
+        </div>
+      </header>
+      <hr />
+      <div class="main-content">
+        <div class="banner-text">
+          <h1>
+            Start <br />
+            your <span>BK <sup>R</sup></span> order.
+          </h1>
+          <button class="btn btn-red">
+            <i class="fa-solid fa-bag-shopping"></i>
+            Order Pickup
+          </button>
+          <button class="btn" id="btn">
+            <i class="fa-solid fa-bicycle"></i>
+            Order Delivery
+          </button>
+        </div>
+        <div class="banner-logo">
+          <img
+            src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/1e428223ca223363c45fb34625589c9435cb7811-1134x638.png?w=1350&q=90&fit=max&auto=format"
+            alt="banner-logo"
+          />
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card c1">
+          <img
+            src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/6cf88609f6ed3d13c2779644e34f8fce7b5887f4-2000x1000.jpg?w=825&q=80&fit=max&auto=format"
+            alt="card-logo"
+          />
+          <div class="card-details">
+            <h2>It’s time to show off your smarts!</h2>
+            <p>
+              It's National Trivia Day! Prove your Walmart+ knowledge and get up
+              to 100 bonus Crowns toward your BK® faves. Earn Crowns with every
+              right answer!
+            </p>
+            <br />
+            <a href="#">See Terms</a>
+            <br />
+            <button>Order Now</button>
+          </div>
+        </div>
+        <div class="card c2">
+          <img
+            src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/99f36b3590f86a15388a4063e73374ee765e5c12-2000x1000.png?w=675&q=80&fit=max&auto=format"
+            alt="card-logo"
+          />
+          <div class="card-details">
+            <h2>Warm up this winter with a Melt Meal!</h2>
+            <p>
+              Cozy days call for cozy flavors. Add some warm, cheesy goodness
+              this winter with one of our digital-exclusive Melt Meals!
+            </p>
+            <br />
+            <a href="#">See Terms</a>
+            <br />
+            <button>Visit the Shop</button>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card c3">
+          <img
+            src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/4aeceeff6ec6f2e04fd26728d67ddbd3fab9b58e-2000x1000.png?w=825&q=80&fit=max&auto=format"
+            alt="card-logo"
+          />
+          <div class="card-details">
+            <h2>Save with Walmart+ and BK!</h2>
+            <p>
+              It's National Trivia Day! Prove your Walmart+ knowledge and get up
+              to 100 bonus Crowns toward your BK® faves. Earn Crowns with every
+              right answer!
+            </p>
+            <br />
+            <a href="#">See Terms</a>
+            <br />
+            <button>Order Now</button>
+          </div>
+        </div>
+        <div class="card c4">
+          <img
+            src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/03d28f28ec8f30ee65dd9dcb037e64e4e7983e49-2000x1000.png?w=825&q=80&fit=max&auto=format"
+            alt="card-logo"
+          />
+          <div class="card-details">
+            <h2>$3 OFF any $20+ BK® delivery order!</h2>
+            <p>
+              It's National Trivia Day! Prove your Walmart+ knowledge and get up
+              to 100 bonus Crowns toward your BK® faves. Earn Crowns with every
+              right answer!
+            </p>
+            <br />
+            <a href="#">See Terms</a>
+            <br />
+            <button>Order Delivery</button>
+          </div>
+        </div>
+      </div>
+      <div class="app-ads">
+        <div class="app-ad">
+          <div class="ads-img">
+            <img
+              src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/da421b826216c29608a2694126a5095f17be8676-630x622.png?w=1350&q=80&fit=max&auto=format"
+              alt="phone-scanner"
+            />
+          </div>
+          <div class="ads-text">
+            <h1>
+              Save $$$ <br />
+              With offers on <br />
+              demand
+            </h1>
+            <div class="download-btn">
+              <div class="btns">
+                <img
+                  src="./apple.png"
+                  alt="apple-logo logo"
+                />
+                <div class="btns-text">
+                  Download on the
+                  <h1>App Store</h1>
+                </div>
+              </div>
+              <div class="btns">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/300/300218.png"
+                  alt="apple-logo logo"
+                />
+                <div class="btns-text">
+                  Get it on
+                  <h1>Google Play</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ad-text">
+          Apple and the Apple logo are trademarks of Apple Inc., registered in
+          the U.S. and other countries. App Store is a service mark of Apple
+          Inc. Google Play is a trademark of Google Inc. Terms apply.
+        </div>
+      </div>
+      <footer>
+        <p>
+          TM & Copyright 2025 Burger King Company LLC. All Rights Reserved. |
+          <a href="">Do Not Sell Or Share My Personal Information</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
