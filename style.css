@@ -76,8 +76,9 @@ hr{
 }
 .banner-text sup{
     border: solid #502314;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 50%;
+    padding: 0px 3px 2px;
 }
 .banner-text .btn{
    
