@@ -17,8 +17,9 @@ body{
 .main-page nav{
     display: flex;
     justify-content: space-around;
-    /* position: relative;
-    bottom: 0px; */
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
     background-color: burlywood;
 }
 nav .nav-items{
@@ -45,6 +46,8 @@ header{
     /* height: 50px; */
     margin: 10px 0;
     font-weight: bold;
+    position: sticky;
+    top: 0;
 }
 header .nav-text{
     font-size: 15px;
