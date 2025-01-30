@@ -1,4 +1,16 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap'); */
+@font-face {
+    font-family: FlameBold;
+    src: url('./FlameBold.otf');
+}
+@font-face {
+    font-family: FlameRegular;
+    src: url('./FlameRegular.otf');
+}
+@font-face {
+    font-family: FlameLight;
+    src: url('./FlameSans.otf');
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,8 +18,8 @@
 }
 body{
     background-color: rgba(240, 223, 201, 0.539);
-    /* font-family: "Cabin", serif; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: FlameRegular;
+    font-weight: normal;
 }
 .main-page{
     display: flex;
@@ -52,8 +64,10 @@ header{
 header .nav-text{
     font-size: 15px;
     color: #502314;
+    font-family: FlameBold;
 }
 header .profile-cart button{
+    font-family: FlameRegular;
     background-color: rgb(214, 35, 0);
     padding: 10px 12px;
     border: none;
@@ -73,6 +87,7 @@ hr{
 }
 .main-page .main-content .banner-text{
     /* font: 32px Flame-Regular; */
+    font-family: FlameBold;
     color: #502314;
     width: 300px;
     font-weight: 700;
@@ -84,7 +99,7 @@ hr{
     padding: 0px 3px 2px;
 }
 .banner-text .btn{
-   
+   font-family: FlameRegular;
     display: inline-block;
     border: none;
     border-radius: 20px;
@@ -121,7 +136,7 @@ hr{
 }
 .card{
     width: 456px;
-    border: .5px solid rgba(0, 0, 0, 0.247);
+    border: .5px solid rgba(0, 0, 0, 0.089);
     border-radius: 20px ;
     background-color: white;
     margin: 0px 0 10px 20px;
